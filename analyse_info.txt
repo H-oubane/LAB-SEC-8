@@ -1,0 +1,10 @@
+Date: 2026-05-16
+Analyste: Houda OUBANE
+Cible: DIVA (jakhar.aseem.diva)
+Artefact: DIVA.apk
+Provenance: Enseignant - TP Securite Mobile
+Hash: (a calculer plus tard)
+Versions outils:
+  - BeVigil: (acces web - pas d'installation)
+  - Yaazhini: (a installer si disponible)
+Environnement: Windows 11Hash APK SHA256 : a4a2e77291d42e32680475a15710433406578b152e1fa11d9b97189e19ec6103

@@ -1,0 +1,11 @@
+﻿ID,Source,Element,Preuve,Confiance,Severite,Impact,Recommandation,OWASP,Statut
+FIND-001,Yaazhini,Insecure Communication,APICreds2Activity.java - CVSS 8.1,Forte,High,Interception du trafic reseau en clair,Implémenter SSL/TLS pour toutes les connexions,MASVS-NETWORK-1,Confirmé
+FIND-002,BeVigil,Non-parameterized SQL Query,sources/jakhar/aseem/diva/SQLInjection - 97.1%,Forte,Medium,Injection SQL possible via input utilisateur,Utiliser des requetes parametrees,MASVS-CODE-4,Confirmé
+FIND-003,Yaazhini,Android Debuggable Enabled,AndroidManifest.xml android:debuggable=true,Forte,Medium,Acces debug en production,Desactiver debuggable dans le build de production,MASVS-CODE-2,Confirmé
+FIND-004,Yaazhini,Android Backup Vulnerability,AndroidManifest.xml android:allowBackup=true,Forte,Medium,Extraction des donnees via backup ADB,Desactiver allowBackup dans AndroidManifest.xml,MASVS-STORAGE-4,Confirmé
+FIND-005,Yaazhini,Improper Export of Providers,AndroidManifest.xml exported providers,Forte,Medium,Acces non autorise aux content providers,Ajouter android:exported=false,MASVS-PLATFORM-2,Confirmé
+FIND-006,BeVigil,Possible Secret Detected,strings.xml - Tveeter/Vendor API Credentials,Moyenne,Low,Credentials hardcodes decouverts par reverse engineering,Utiliser Android Keystore,MASVS-STORAGE-1,Confirmé
+FIND-007,Yaazhini,Javascript Enabled in WebView,WebView configuration,Moyenne,Low,XSS possible via WebView,Desactiver JS si non necessaire,MASVS-PLATFORM-1,Confirmé
+FIND-008,BeVigil,File Path Exposure,sources/jakhar/aseem/diva/InsecureDat - CWE-200,Moyenne,Low,Revele la structure interne de l'app,Eviter d'exposer les chemins internes,MASVS-STORAGE-2,Confirmé
+FIND-009,Yaazhini,Android External Storage,9 occurrences dans le code,Forte,Warning,Donnees ecrites sur stockage externe non protege,Utiliser le stockage interne chiffre,MASVS-STORAGE-2,Confirmé
+FIND-010,BeVigil,READ_EXTERNAL_STORAGE Permission,AndroidManifest.xml permission RISKY,Forte,Warning,Lecture de tous les fichiers SD card,Supprimer si non necessaire,MASVS-STORAGE-2,Confirmé
