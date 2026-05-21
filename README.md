@@ -270,4 +270,8 @@ La checklist de fin a été complétée et signée dans `checklist_fin.md`.
 
 ## Auteur
 **H-oubane**
+
+
+
+
 *Analyse réalisée dans un cadre pédagogique sur une application volontairement vulnérable. Aucune exploitation réelle n'a été effectuée.*
